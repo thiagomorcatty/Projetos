@@ -1,0 +1,373 @@
+<div style='font-family: "Times New Roman", Times, serif;font-size:12pt;line-height: 1.5;'>
+    <div style="text-align: center">
+        <img src="http://67.205.143.244/img/cache/original/logo-3.png" alt="Minha Figura" width="100" height="100">
+    </div>
+    <br>
+    <br>
+    <div style="text-align: center"><div style="text-align: center">
+        <b><u>CONTRATO DE PROMESSA DE COMPRA E VENDA DE LOTE</u></b>
+    </div>
+    <br> 
+            (atualizado pela Lei 13.786/18)
+    </div>
+    <br />
+    <div style="text-align: center;border: 1px solid #888;">
+        I - DA QUALIFICAÇÃO DAS PARTES
+    </div>
+    <br />
+    <div style="text-align: justify;">
+        <strong> 1.1. PROMITENTE VENDEDORA:</strong> 
+<b>CAPELINHA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA.</b>, pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 24.475.217/0001-16, com sede na av. Vinte e Oito de Abril, n°. 314, sl. 201, Centro, Ipatinga/MG, CEP 35.160-004.
+    </div>
+    <br />
+    <div style="text-align: justify;">
+        <strong>1.2. PROMISSÁRIO(S) COMPRADOR(ES):</strong> 
+    </div>
+    <div style="text-align: left;">
+ <span ng-repeat="o in proposta.proponentes.data">
+            <span ng-if="o.cliente.data.pessoa.data.fisica"><br>
+                <b>1.2.{{($index*13)+1}} – Nome:</b> {{o.cliente.data.pessoa.data.nome}}<br> 
+                <b>1.2.{{($index*13)+2}} – Nacionalidade:</b> {{o.cliente.data.pessoa.data.fisica.data.pais.data.nacionalidade}}<br> 
+                <b>1.2.{{($index*13)+3}} –  Naturalidade:</b> {{o.cliente.data.pessoa.data.fisica.data.naturalidade.data.nome}}<br> 
+                <b>1.2.{{($index*13)+4}} – Profissão:</b> {{o.cliente.data.pessoa.data.fisica.data.profissao.data.nome}}<br>
+                <b>1.2.{{($index*13)+5}} – CPF:</b> {{o.cliente.data.pessoa.data.fisica.data.cpf_mask}} <br>
+                <b>1.2.{{($index*13)+6}} – RG:</b> {{o.cliente.data.pessoa.data.fisica.data.identidade}}<br> 
+                <b>1.2.{{($index*13)+7}} – Estado Civil:</b> {{o.cliente.data.pessoa.data.fisica.data.estadoCivil.data.descricao}}<br>
+                <b>1.2.{{($index*13)+8}} – Telefone:</b> {{o.cliente.data.pessoa.data.telefones.data[0].telefone}}<br>
+                <b>1.2.{{($index*13)+9}} – Email:</b> {{o.cliente.data.pessoa.data.emails.data[0].email}}<br>
+                <b>1.2.{{($index*13)+10}} – Endereço Residencial:</b> {{o.cliente.data.pessoa.data.enderecos.data[0].logradouro}}, 
+                nº {{o.cliente.data.pessoa.data.enderecos.data[0].numero}} {{o.cliente.data.pessoa.data.enderecos.data[0].complemento}}<br>
+                <b>1.2.{{($index*13)+11}} – Bairro:</b> {{o.cliente.data.pessoa.data.enderecos.data[0].bairro}}<br>
+                <b>1.2.{{($index*13)+12}} – Cidade:</b> {{o.cliente.data.pessoa.data.enderecos.data[0].cidade_nome}}/{{o.cliente.data.pessoa.data.enderecos.data[0].estado_nome}}<br>
+                <b>1.2.{{($index*13)+13}} – CEP:</b> {{o.cliente.data.pessoa.data.enderecos.data[0].cep_mask}}<br>
+                <span ng-if="o.cliente.data.pessoa.data.fisica.data.estadoCivil.data.dados_conjuge"><br><br>
+                    <b>1.2.{{($index*13)+1}} – Nome:</b> {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.nome}}<br> 
+                    <b>1.2.{{($index*13)+2}} – Nacionalidade:</b> {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.pais.data.nacionalidade}}<br>
+                    <b>1.2.{{($index*13)+3}} –    Naturalidade:</b> {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.naturalidade.data.nome}}<br> 
+                    <b>1.2.{{($index*13)+4}} – Profissão:</b> {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.profissao.data.nome}}<br>
+                    <b>1.2.{{($index*13)+5}} – CPF:</b> {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.cpf_mask}} <br>
+                    <b>1.2.{{($index*13)+6}} – RG:</b> {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.identidade}}<br> 
+                    <b>1.2.{{($index*13)+7}} – Estado Civil:</b> {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.estadoCivil.data.descricao}}<br>
+                    <b>1.2.{{($index*13)+8}} – Telefone:</b> {{o.cliente.data.pessoa.data.telefones.data[0].telefone}}<br>
+                    <b>1.2.{{($index*13)+9}} – Email:</b> {{o.cliente.data.pessoa.data.emails.data[0].email}}<br>
+                    <b>1.2.{{($index*13)+10}} – Endereço Residencial:</b> {{o.cliente.data.pessoa.data.enderecos.data[0].logradouro}}, 
+                    nº {{o.cliente.data.pessoa.data.enderecos.data[0].numero}} {{o.cliente.data.pessoa.data.enderecos.data[0].complemento}}<br>
+                    <b>1.2.{{($index*13)+11}} – Bairro:</b> {{o.cliente.data.pessoa.data.enderecos.data[0].bairro}}<br>
+                    <b>1.2.{{($index*13)+12}} – Cidade:</b> {{o.cliente.data.pessoa.data.enderecos.data[0].cidade_nome}}/{{o.cliente.data.pessoa.data.enderecos.data[0].estado_nome}}<br>
+                    <b>1.2.{{($index*13)+13}} – CEP:</b> {{o.cliente.data.pessoa.data.enderecos.data[0].cep_mask}}<br>
+                </span>
+            </span>
+
+            <span ng-if="o.cliente.data.pessoa.data.juridica">
+                {{o.cliente.data.pessoa.data.juridica.data.razao_social}},
+                inscrita no CNPJ sob o número {{o.cliente.data.pessoa.data.juridica.data.cnpj_mask}},
+                com sede à {{o.cliente.data.pessoa.data.enderecos.data[0].logradouro}}, 
+                nº {{o.cliente.data.pessoa.data.enderecos.data[0].numero}} {{o.cliente.data.pessoa.data.enderecos.data[0].complemento}}, 
+                Bairro {{o.cliente.data.pessoa.data.enderecos.data[0].bairro}}
+                na cidade de {{o.cliente.data.pessoa.data.enderecos.data[0].cidade_nome}}, 
+                estado de {{o.cliente.data.pessoa.data.enderecos.data[0].estado_nome}}, 
+                CEP {{o.cliente.data.pessoa.data.enderecos.data[0].cep_mask}}
+                <span ng-repeat="r in o.cliente.data.pessoa.data.juridica.data.representantes.data">
+                    , neste ato legalmente representada por {{r.pessoaFisica.data.nome}},
+                    {{r.pessoaFisica.data.pais.data.nacionalidade}}, {{r.pessoaFisica.data.profissao.data.nome}},
+                    portador(a) da Cédula de Identidade nº {{r.pessoaFisica.data.identidade}},
+                    inscrito(a) no CPF sob o nº {{r.pessoaFisica.data.cpf_mask}}, {{r.pessoaFisica.data.estadoCivil.data.descricao}},
+                    residente e domiciliado em {{r.enderecos.data[0].logradouro}}, 
+                    nº {{r.enderecos.data[0].numero}} {{r.enderecos.data[0].complemento}}, 
+                    Bairro {{r.enderecos.data[0].bairro}} na cidade de {{r.enderecos.data[0].cidade_nome}}, 
+                    estado de {{r.enderecos.data[0].estado_nome}}, CEP {{r.enderecos.data[0].cep_mask}}
+                </span>
+            </span>
+            <span ng-if="$index <proposta.proponentes.data.length&&proposta.proponentes.data.length> 1"> e </span>
+        </span>
+    </div>
+    <br />
+    <div style="text-align: center;border: 1px solid #888;">
+         II - DO QUADRO RESUMO:
+    </div>
+    <br />
+    <div style="text-align: justify;">
+        <strong> 2.1. DO PREÇO: </strong>
+        <br> Valor total da venda: <R1>R$ 00,00</R1> {{v.valor | currency:"R$":2}} <br> 
+        <br>
+        <strong> 2.2. DAS CONDIÇÕES DE PAGAMENTOS: </strong> <br>
+        Valor da entrada: <R1>R$ 00,00</R1> (xx% do valor da venda) <br>
+        Forma de pagamento da entrada: <br>
+        Valor a ser parcelado: R$ 00,00 (xx% do valor da venda) <br>
+        Quantidade de Parcelas: xxxx - Data de vencimento da primeira parcela: 
+        Periodicidade de vencimento das parcelas: mensal <br>
+        Saldo devedor: <R1>R$ 00,00</R1> (xx% do valor da venda) <br>
+        <br>
+        <strong> 2.3. DOS JUROS E CORREÇÃO MONETÁRIA: </strong> <br>
+        CORREÇÃO MONETÁRIA: Anual, incidente sobre o valor do devedor, a cada 12 meses <br>
+        ÍNDICE DE CORREÇÃO: Variação da Poupança <br>
+        JUROS: 8% ao ano, incidente sobre o saldo devedor, a cada 12 meses <br>
+        <br>
+        <strong> 2.4. DAS CONDIÇÕES DA COMPRA E VENDA: </strong> <br>
+        LOCAL DA VENDA: ( ) Sede da empresa ( ) Estande de vendas <br>
+        VALOR DA COMISSÃO DE CORRETAGEM: correspondendo a 8% do valor da venda <br>
+        TAXA ADMINISTRATIVA PARA CESSÃO DO CONTRATO: 2% do valor da venda <br>
+        DATA PREVISTA PARA ENTREGA DEFINITIVA: 31/12/2022 <i>(Prazo com tolerância de 180 dias)</i> <br>
+        Matrícula no Cartório de Imóveis de Capelinha: xxxx <br>
+        Existem ônus sobre o imóvel: (x)não ( )sim 
+    </div>
+    <br />
+    <div style="text-align: center;border: 1px solid #888;">
+       III – DAS OBSERVAÇÕES IMPORTANTES:
+    </div>
+    <br />
+    <div style="text-align: justify;">
+        3.1. Nos termos do art. 49 da Lei 8.079/90 (Código de Defesa do Consumidor), o(s) PROMISSÁRIO(S) COMPRADOR(S) poderá(ão) desistir do negócio, no prazo de 7 (sete) dias, contados da data de assinatura do contrato, caso o mesmo tenha sido assinado fora da sede da empresa, desde que o(s) PROMISSÁRIO(S) COMPRADOR(S) comunique à PROMITENTE VENDEDORA sua intenção em distratar o negócio por carta registrada com aviso de recebimento, enviada dentro do prazo de 7 (sete) dias. Nesta hipótese, o(s) PROMISSÁRIO(S) COMPRADOR(S) será(ão) restituído(s) de todos os valores pagos, incluindo comissão de corretagem.  <br> <br>
+        3.2. Se o(s) PROMISSÁRIO(S) COMPRADOR(S) interromper(em) o pagamento das parcelas pactuadas no presente contrato, ficará sujeito ao desfazimento do contrato e a: 
+        <br> 3.2.a: Pagar(em) ao PROMITENTE VENDEDOR multa rescisória de perda do sinal e 20% (vinte porcento) do valor das parcelas pagas; 
+        <br> 3.2.b: Perder o valor pago a título de comissão de corretagem; 
+        <br> 3.2.c: Pagar(em) ao PROMITENTE VENDEDOR honorários advocatícios necessários para cobrança de eventuais débitos em atraso; 
+        <br> 3.2.d: Pagar(em) ao PROMITENTE VENDEDOR o percentual de 0,5% (meio por cento) sobre o valor atualizado do contrato, por mês de fruição do imóvel, pro rata die, caso o(s) PROMISSÁRIO(S) COMPRADOR(S) estejam na posse do imóvel; 
+        <br> 3.2.e: Pagar(em) ao PROMITENTE VENDEDOR as quantias correspondentes aos Impostos Reais incidentes sobre o imóvel.
+        <br> Nos termos do art. 67-A, §6º e §7º da Lei 13.786/18, após efetuados todos os descontos acima relacionados, se for apurado crédito a favor do(s) PROMISSÁRIO(S) COMPRADOR(S), o valor será restituído em parcela única em até 180 (cento e oitenta) dias da data da rescisão do contrato, ou, caso ocorra a revenda da unidade antes de tal período, em até 30 (trinta) dias da revenda.
+        <br>
+        3.3. Nos termos do art. 43-A da Lei 13.786/18, na hipótese de atraso na entrega do imóvel, superior a 180 (cento e oitenta) dias corridos da data prevista no campo II.IV do Quadro Resumo, desde que não tenha dado causa ao atraso, o(s) PROMISSÁRIO(S) COMPRADOR(ES) poderá(ão) requerer, alternativamente, a sua escolha: <br>
+            3.3.a: A resolução do contrato, com a devolução de todo o valor pago, acrescido da multa contratual pactuada, devendo tal valor ser pago pela PROMITENTE VENDEDORA em até 60 (sessenta) dias corridos da resolução; ou <br>
+            3.3.b: A continuidade do contrato, com o pagamento pela PROMITENTE VENDEDORA, ao(s) PROMISSÁRIO(S) COMPRADOR(RES), de indenização no percentual de 1% (um porcento) do valor efetivamente pago à PROMITENTE VENDEDORA, corrigido monetariamente pelo índice estabelecido neste contrato, para cada mês de atraso.
+        <br>
+    </div>
+    <div style="text-align: justify;">
+        AS PARTES acima qualificadas, resolvem celebrar o presente Contrato de Promessa de Compra e Venda de Imóvel em Construção, que se regerá pelas seguintes cláusulas e condições: <br>
+    </div>
+    <br>
+    <div style="text-align: justify;">
+        <strong>Cláusula Primeira – Do Objeto: </strong> <br>
+        <br> 1.1. Por este instrumento e na melhor forma de direito, a PROMITENTE VENDEDORA promete vender e o(s) PROMISSÁRIO(S) COMPRADOR(ES) compromete-se a comprar, a unidade imobiliária em construção, constituída pelo lote de terreno n. xxxxx, localizado na quadra xxxxx, com área total aproximada de xxxxx m2. 
+        Parágrafo único: O(s) PROMISSÁRIO(S) COMPRADOR(ES) declara(ão) conhecer “in loco” o imóvel objeto do presente contrato, conhecendo sua localização e sua topografia, adquirindo-o sem nenhuma dúvida quanto à sua exata descrição.
+        <br> 1.2. O imóvel acima descrito está registrado no Cartório de Registro de Imóveis de Capelinha sob a matrícula n. xxxxx, declarando a PROMITENTE VENDEDORA, neste ato, ser legítima possuidora da unidade imobiliária deste contrato, a qual se encontra livre e desembaraçado de quaisquer dívidas e ônus reais.
+        <br> 1.3. A compra e venda ora pactuada é realizada “ad corpus”, ou seja, como coisa certa e determinada, sendo meramente enunciativa a referência às dimensões, ficando assim convencionado que não haverá repercussão de espécie alguma, seja jurídica, econômica ou financeira, por diferença para mais ou para menos, nas dimensões dos citados lotes de terreno, em consonância com o disposto no §3º do art. 500 do Código Civil.
+        <br> 1.4. A PROMITENTE VENDEDORA entregará o lote já demarcado com piquete de concreto em todos os vértices,, não se responsabilizando pelo desaparecimento das marcações após a assinatura do contrato.
+        <br> 1.5. O presente contrato é celebrado pelas partes de forma irrevogável e irretratável, não se sujeitando ao arrependimento, obrigam-se as partes a cumpri-lo, por si, seus herdeiros e sucessores, a qualquer título.
+        <br> <br>
+        
+        <strong>Cláusula Segunda – Do Preço e Condições de Pagamento: </strong> <br>
+        <br> 2.1.	O(s) PROMISSÁRIO(S) COMPRADOR(ES) pagarão à PROMITENTE VENDEDORA, descontado o valor da corretagem, o valor total de R$ xxxxx (xxxxx mil reais), pelo imóvel objeto deste contrato e suas frações ideais.
+        <br> 2.2.	O pagamento do preço estabelecido no item acima será realizado da seguinte forma:
+        <br> 2.2.1.	R$ xxxxx (xxxxx mil reais), como sinal do negócio, a ser pago por meio de transferência bancária para a conta corrente da PROMITENTE VENDEDORA, até a data de xxxxx de xxxxx de 20 xx, sendo considerado recebido através da confirmação junto ao extrato bancário. Dados bancários da PROMITENTE VENDEDORA: Banco xxxxx, Agência xxxxx, Conta Corrente xxxxx, Operação xxxxx.
+        <br> 2.2.2.	R$ xxxxx (xxxxx mil reais) serão pagos em xxxxx (xxxxx) parcelas mensais e sucessivas de R$ xxxxx (xxxxx reais), a serem pagas por meio de boleto bancário, vencendo sempre nos dias xxxxx de cada mês.
+        <br> 2.2.3.	As parcelas serão corrigidas a cada 12 (doze) meses, contados da data de assinatura do presente contrato, pelo Índice da Poupança, e acrescidas de juros de 8 % ao ano.
+        <br> 2.2.4.	O atraso no pagamento das prestações sujeitará o(s) PROMISSÁRIO(S) COMPRADOR(ES), independentemente de qualquer aviso ou notificação, à incidência, sobre o valor da parcela, de multa de 2% (dois por cento), e juros moratórios de 1% ao mês, pro rata dia. 
+        <br> 2.3.	O(s) PROMISSÁRIO(S) COMPRADOR(ES) poderão realizar o pagamento antecipado de parte ou integralidade das parcelas, e neste caso será incluída a correção monetária prevista neste instrumento pro rata die até a data da antecipação. As antecipações incidirão sobre as parcelas em ordem cronológica inversa à dos respectivos vencimentos, de modo a não haver interrupção na sequência dos vencimentos das parcelas previamente pactuadas.
+        <br> <br>
+        
+        <strong>Cláusula Terceira – Das penalidades e Hipóteses de Rescisão:  </strong> <br>
+        <br> 3.1. O vencimento e não pagamento de 2 (duas) parcelas ou qualquer delas por prazo superior à 30 dias, implicará, após notificação judicial ou extrajudicial, com prazo de 10 (dez) dias, na resolução desta promessa de compra e venda, hipótese em que poderá a PROMITENTE VENDEDORA usar e dispor da unidade imobiliária, transferindo a terceiros os direitos e obrigações independentemente do consentimento do(s) PROMISSÁRIO(S) COMPRADOR(ES), sendo devolvidas a este as importâncias que tiver pago, após serem abatidas as seguintes despesas:
+        <br> 3.1.1.	Pena decadencial de perda do sinal pago, acrescido de 20% (vinte por cento) sobre o valor das parcelas pagas;
+        <br> 3.1.2.	Despesas de corretagem, correspondendo a 8% do valor do contrato;
+        <br> 3.1.3.	Encargos tributários incidentes sobre as parcelas efetivamente pagas;
+        <br> 3.1.4.	Despesas e custos extrajudiciais, judiciais e honorários advocatícios necessários ao recebimento;
+        <br> 3.2.	Ocorrendo a hipótese prevista no item 3.1 supra, estando o(s) PROMISSÁRIO(S) COMPRADOR(ES) eventualmente na posse do imóvel, estes ainda deverão pagar à PROMITETE VENDEDORA por sua fruição, o valor correspondente 0,5% ao mês ou fração de mês, do preço do imóvel reajustado monetariamente pelo indexador ajustado nesta cláusula, calculado a partir da imissão na posse do imóvel. 
+        <br> Parágrafo Único: Eventuais benfeitorias realizadas no imóvel pelo PROMISSÁRIO(S) COMPRADOR(ES) incorporarão ao mesmo, renunciando o(s) PROMISSÁRIO(S) COMPRADOR(ES) ao direito de retenção.
+        <br> 3.2.1.	Neste caso, o(s) PROMISSÁRIO(S) COMPRADOR(ES) desde já autoriza(m) ao PROMITENTE VENDEDOR, independentemente de qualquer formalidade, a realizar a retomada do imóvel.
+        <br> 3.3.	As eventuais importâncias a serem devolvidas, por força dos itens anteriores, serão efetuadas pelo PROMITENTE VENDEDOR ao(s) PROMISSÁRIO(S) COMPRADOR(ES) em uma única parcela, a ser paga em até 180 (cento e oitenta) dias após a resolução do contrato, ou, caso ocorra a revenda da unidade imobiliária antes de tal período, em até 30 (trinta) dias da revenda, devendo tal valor ser corrigido monetariamente pelo índice do contrato, após as deduções previstas nos subitens 3.1.1 a 3.1.4, bem como no item 3.2, se for o caso. 
+        <br> 3.4.	Na hipótese de inadimplemento da PROMITENTE VENDEDORA, esta ficará sujeita ao pagamento aos PROMISSÁRIO(S) COMPRADOR(ES) de multa correspondente a 20% sobre o valor das parcelas pagas, bem como a restituir todos os valores já desembolsados pelo(s) PROMISSÁRIO(S) COMPRADOR(ES), na hipótese de rescisão contratual.
+        <br> 3.5.	A PROMITENTE VENDEDORA fica autorizada a qualquer tempo, ceder ou caucionar a terceiros os seus créditos provenientes do presente contrato, inclusive por meio de Securitização ou Sistema de Financiamento Imobiliário – SEI, com a emissão de certificados de Recebíveis Imobiliários (CRI) ou Cédula de Crédito Imobiliário (CCI), podendo o imóvel vir a ser objeto de alienação fiduciária.
+        <br> 
+        <strong>Cláusula Quarta – Da Posse:  </strong> <br>
+        <br> 4.1. O(s) PROMISSÁRIO(S) COMPRADOR(ES) recebem a posse precária do imóvel objeto do presente contrato na data de assinatura deste instrumento.
+        <br> 4.2. O(s) PROMISSÁRIO(S) COMPRADOR(ES) somente poderá(ão) edificar no imóvel objeto do presente contrato, após observadas as seguintes condições:
+        <br> 4.2.a.	(a)	Estar rigorosamente em dia com o pagamento de suas prestações, já tendo efetuado o pagamento de, no mínimo, 30% (trinta por cento), do total do preço da venda, e;
+        <br> 4.2.b.	(b)	Efetivar alienação fiduciária do imóvel em favor da PROMITENTE VENDEDORA, averbando-a na matrícula do imóvel junto ao Cartório de Registro de Imóveis de Capelinha.
+        <br> 4.3.	No caso de o(s) PROMISSÁRIO(S) COMPRADOR(ES) construir no imóvel objeto do contrato, as benfeitorias serão dadas em garantia à dívida contraída junto à PROMITENTE VENDEDORA, renunciando o(s) PROMISSÁRIO(S) COMPRADOR(ES) a qualquer direito de retenção, compensação ou indenização.
+        <br> 4.4.	A posse definitiva, com a outorga da escritura, somente será transferida quando da quitação integral do preço da venda pelo(s) PROMISSÁRIO(S) COMPRADOR(ES).
+        <br>
+        <strong>Cláusula Quinta - Das Obrigações e Direitos das Partes:  </strong> <br>
+        <br> 5.1.	São obrigações e direitos da PROMITENTE VENDEDORA:
+        <br> 5.1.1.	Conceder a posse precária do imóvel ao(s) PROMISSÁRIO(S) COMPRADOR(ES) na data de assinatura do presente instrumento.
+        <br> 5.1.2.	Entregar o imóvel aos PROMISSÁRIO(S) COMPRADOR(ES) nas condições aprovadas no Projeto e livre de quaisquer ônus.
+        <br> 5.1.3.	A PROMITENTE VENDEDORA se obriga a executar as seguintes benfeitorias no perímetro interno do loteamento: abertura de ruas, demarcação de quadras e lotes, construção de Clube Social Privativo, rede de esgoto sanitário, rede de água, rede de drenagem pluvial, estação de tratamento de esgoto (ETE), estação de tratamento de água (ETA), rede de energia elétrica e pavimentação.
+        <br> 5.1.4.	Efetivar a regularização e legalização do imóvel junto aos órgãos competentes, a fim de que os PROMISSÁRIO(S) COMPRADOR(ES) possam transferir e registrar o referido imóvel para o seu nome, quando da totalidade do pagamento, entregando a estes todos os documentos necessários à transferência do imóvel.
+        <br> 5.1.5.	Outorgar aos PROMISSÁRIO(S) COMPRADOR(ES), a escritura definitiva de compra e venda do imóvel, objeto do presente contrato, somente quando houver recebido o total do preço ajustado constante na cláusula segunda.
+        <br> 5.2.	São obrigações e direitos dos PROMISSÁRIO(S) COMPRADOR(ES):
+        <br> 5.2.1.	Realizar os pagamentos pontualmente, conforme acordado neste contrato;
+        <br> 5.2.2.	Comunicar à PROMITENTE VENDEDORA qualquer alteração em seu endereço residencial, para fins de correspondências e comunicações a respeito do presente contrato;
+        <br> 5.2.3.	Receber a posse precária do imóvel;
+        <br> 5.2.4.	Após a imissão na posse o(s) PROMITENTE(S) COMPRADOR(S) fica responsável pelo pagamento do IPTU incidente sobre o imóvel, sob pena de responder por eventual cobrança de dívida além das perdas e danos decorrentes.
+        <br> Parágrafo Único: Em havendo execução do IPTU em face da PROMITENTE VENDEDORA, o(s) PROMITENTE(S) COMPRADOR(ES) ficam cientificados e desde já concordam que o imóvel objeto do presente contrato será oferecido à penhora como garantia do pagamento da dívida.
+        <br> 5.2.5.	Correrão por conta exclusiva dos PROMISSÁRIO(S) COMPRADOR(ES): (a) todas as despesas necessárias à lavratura da escritura definitiva de compra e venda, tais como: ITBI – Impostos sobre a Transmissão de Bens Intervivos, custas cartoriais e de registros, serviços de despachantes e outros; (b) todos os impostos e taxas que incidam ou venham a incidir sobre a unidade residencial objeto deste contrato, após a efetiva entrega do imóvel, ainda que atribuídos à PROMITENTE VENDEDORA, e ainda que os PROMISSÁRIO(S) COMPRADOR(ES) não tenha recebido a posse por sua culpa exclusiva; e, (c) as despesas indispensáveis à instalação, funcionamento e regulamentação do condomínio na proporção às respectivas frações ideais de terreno;
+        <br> 5.2.6.	Após pleno atendimento ao item 4.1.3 pela PROMITENTE VENDEDORA, tendo ocorrido o integral pagamento do preço pelo(s) PROMISSÁRIO(S) COMPRADOR(ES), este compromete-se a transferir a propriedade da unidade imobiliária objeto deste contrato no prazo máximo de 60 (sessenta) dias, sob pena de execução forçada da obrigação.
+        <br> 5.2.7.	Após receber a outorga da escritura pública, o PROMISSÁRIO COMPRADOR obriga-se a averbá-la na repartição competente na Prefeitura Municipal de Capelinha, no prazo de 30 (trinta) dias, para fins de transferência da titularidade junto ao setor de IPTU.
+        <br> <br>
+        
+        <strong>Cláusula Sexta – Do Prazo de Entrega: </strong> <br>
+        <br> 6.1.	A PROMITENTE VENDEDORA se compromete a liberar o imóvel objeto do contrato para edificação a partir de 31 de dezembro de 2021, desde que o PROMISSÁRIO COMPRADOR atenda aos requisitos estabelecidos no item 4.2 da Cláusula Quarta.
+        <br> 6.2.	A PROMITENTE VENDEDORA se compromete a concluir as obras e a entregar a unidade imobiliária objeto deste contrato ao PROMISSÁRIO COMPRADOR até 31 de dezembro de 2022, sendo admitida uma tolerância de até 180 (cento e oitenta) dias, contados a partir de tal data.
+        <br> 6.3.   Os prazos acima pactuados poderão ser prorrogados, na ocorrência de caso, força maior ou outros fatos extraordinários, pelo mesmo período em que estes perdurarem. Para efeitos desta cláusula definem-se como fatos extraordinários, sem, no entanto, a eles se limitar:
+        <br> 6.3.a 	Inexistência de materiais de construção ou similares para compra no mercado;
+        <br> 6.3.b 	Demandas judiciais em relação a vizinhos ou terrenos lindeiros, bem como eventuais embargos à construção provocados por autoridades públicas ou proprietários vizinhos;
+        <br> 6.3.c 	Longo período de chuvas que impeçam ou dificultem substancialmente etapas importantes da obra;
+        <br> 6.3.d 	Greves, guerras, revoluções, e situações de pandemia que afetem o setor imobiliário, impedindo seu funcionamento;
+        <br> 6.3.e 	Impontualidade dos PROMISSÁRIO(S) COMPRADOR(ES) no cumprimento de suas obrigações;
+        <br> 6.3.f 	Interrupções dos meios de transportes;
+        <br> 6.3.g 	Demora na execução de serviços a cargo das empresas concessionárias de serviço público (CEMIG, COPASA, etc.);
+        <br> 6.3.h  Demoras do poder público na concessão do “Habite-se” por motivo independente da vontade da PROMITENTE VENDEDORA;
+        <br> 6.3.j  Quaisquer outros fatos que se enquadre no art. 393 do Código Civil.
+        <br> <br>
+       
+        <strong>Cláusula Sétima – Da Cessão: </strong> <br>
+        <br> 7.1.	O presente contrato somente poderá ser cedido a terceiros pelo(s) PROMISSÁRIO(S) COMPRADOR(ES) mediante anuência prévia e escrita da PROMITENTE VENDEDORA, que se reserva o direito de recusar a cessão, caso entenda que o cessionário não possui capacidade financeira para assumir as obrigações estabelecidas no contrato.
+        <br> 7.2.	Caso a cessão seja autorizada, o(s) PROMISSÁRIO(S) COMPRADOR(ES) deverão pagar à PROMITENTE VENDEDORA o percentual de 2% (dois por cento) do valor total do contrato, para suprir as despesas administrativas decorrentes da cessão.
+        <br> <br>
+        
+        <strong>Cláusula Oitava – Das Disposições Finais: </strong> <br>
+        <br> 8.1.	A abstenção das partes do exercício de qualquer direito decorrente deste Contrato ou da Lei, não importará em sua renúncia, tampouco em novação ou alteração tácita da avença, impedidas, assim, as contratantes de invocar o fato como precedente para a repetição do ato tolerado.
+        <br> 8.2.	Avisos, notificações ou comunicações relativas ao presente contrato, somente reputar-se-ão válidas se feitas por escrito e entregues sob protocolo ou por correspondência por AR.
+        <br> 8.3.	Fica vedado aos PROMISSÁRIO(S) COMPRADOR(ES) cederem, prometerem ou transferirem gratuitamente ou onerosamente, ou a qualquer título, os direitos decorrentes deste contrato, sem a concordância prévia e expressa da PROMITENTE VENDEDORA, sob pena de vencimento antecipado das parcelas então vincendas à época da cessão, da promessa de cessão ou transferência.
+        <br> 8.4.	Os PROMISSÁRIO(S) COMPRADOR(ES) declaram por este ato, que receberam previamente para análise a minuta do presente contrato, sendo suas cláusulas e condições de sua inteira compreensão, e ainda que as obrigações por ele assumidas estão de acordo com sua capacidade econômico-financeira.
+        <br> 8.5.	Quaisquer termos e/ou condições deste Contrato, bem como seu Anexo ou documentos que o integram, somente poderão ser alterados mediante a emissão de termo aditivo contratual, devidamente assinado pelos representantes legais das partes.
+        <br> 8.6.	As partes se obrigam a guardar, tanto na conclusão como da execução deste Contrato, os princípios de probidade e boa-fé.
+        <br> <br>
+        
+        <strong>Cláusula Nona – Do Foro: </strong> <br>
+        <br> 9.1.	As partes elegem o foro da comarca de Capelinha/MG para dirimir quaisquer controvérsias decorrentes do presente contrato, renunciando a qualquer outro, por mais especial que se apresente.
+        <br>
+        Por assim acordadas, justas e acertadas, firmam as partes o presente Contrato Particular de Compromisso de Compra e Venda, em 3 (três) vias de igual teor e forma, perante as testemunhas ao final assinadas, estando rubricadas pelas partes todas as páginas.
+        <br> <br> <br>
+        <div style="text-align: center;">
+            Capelinha, ____ de _______________ de 20___.
+        </div> <br>
+
+        <!-- 
+    <div style="text-align: justify;">
+        <strong> 4.2. </strong> PRAZO DE AMORTIZAÇÃO, TAXA DE JUROS, DEMAIS VALORES E CONDIÇÕES <br>
+        <div style="text-align: justify;">
+             &nbsp;&nbsp;<b>4.2.1.</b>Valor já quitado pelo(s) COMPRADOR(ES) à VENDEDORA: {{(proposta.comissao.data.resumo.data[0].valor_sinal - proposta.comissao.data.resumo.data[0].total_corretagem) * proposta.pagamentos.data[0].quantidade | currency:"R$":2}}, referente ao 1º Sinal ou ao Sinal único (também identificado como Sinal/Ato Assinatura Contrato; como Ato Assinatura Contrato), se for o caso, conforme indicado na coluna TIPO DE PARCELA do item <b>4.1</b>.
+        </div>
+        <br>
+        <div style="text-align: justify;">
+            &nbsp;&nbsp;<b>4.2.2.</b> Valor da dívida financiada: {{proposta.valor_presente-proposta.comissao.data.valor_comissao-(proposta.comissao.data.resumo.data[0].valor_sinal - proposta.comissao.data.resumo.data[0].total_corretagem) * proposta.pagamentos.data[0].quantidade | currency:"R$":2}}
+        </div>
+        <div class="text-justify">
+            &nbsp;&nbsp;<b>4.2.3.</b> Valor da garantia fiduciária: {{proposta.valor_presente_sem_comissao | currency:"R$":2}} ({{proposta.valor_presente_sem_comissao_extenso}})
+        </div>
+        <div class="text-justify">
+            &nbsp;&nbsp;<b>4.2.4.</b> Prazo em meses de amortização: {{proposta.prazo_amortizacao2}} ({{proposta.prazo_amortizacao2_extenso}}) meses.
+        </div>
+        <div class="text-justify">
+            &nbsp;&nbsp;<b>4.2.5.</b> Reajuste da dívida financiada: item <b>4.1</b> do QUADRO RESUMO, no que for aplicável.
+        </div>
+        <div class="text-justify">
+            &nbsp;&nbsp;<b>4.2.6.</b> Sistema de amortização: PRICE
+        </div>
+    </div>
+    <br /> 
+
+
+    <div style="text-align: justify;">
+        <strong>4.3. </strong>VALOR DO IMÓVEL PARA FINS DE VENDA EM LEILÃO PÚBLICO
+        <div style="text-align: justify;">
+            &nbsp;&nbsp;{{proposta.valor_presente_sem_comissao | currency:"R$":2}} ({{proposta.valor_presente_sem_comissao_extenso}})
+        </div>
+    </div>
+    <br />
+
+    <div style="text-align: justify;">
+        <strong>4.4. </strong> Registra-se que pela intermediação da presente compra e venda o(s) COMPRADOR(ES) pagou(aram) o valor total de {{proposta.valor_comissao | currency:"R$":2}} ({{proposta.valor_comissao_extenso}}), referente à comissão de corretagem devida, diretamente 
+        <span ng-repeat="(key, value) in proposta.comissao.data.array_hierarquia" ng-if="!proposta.receber_comissao_no_ato">
+            à(ao) {{value.pessoa}}, 
+            <span ng-if="value.dados_pessoa.pessoa_juridica">
+                CNPJ {{value.dados_pessoa.pessoa_juridica.cnpj_mask}}, 
+            </span>
+            <span ng-if="value.dados_pessoa.pessoa_fisica">
+                CPF {{value.dados_pessoa.pessoa_fisica.cpf_mask}}, 
+            </span>
+            <span ng-if="value.dados_pessoa.usuario.creci">
+                CRECI {{value.dados_pessoa.usuario.creci}}, 
+            </span>
+            no importe de {{value.comissao_total | currency:"R$ ":2}}; 
+        </span>
+        conforme contrato firmado diretamente com a imobiliária/corretor(es). Assim, o preço total da aquisição (valor do lote + valor da comissão) é de {{proposta.valor_presente | currency:"R$":2}} ({{proposta.valor_presente_extenso}})
+    </div>
+    
+
+    <div ng-repeat="o in proposta.proponentes.data">
+        <strong>
+        <div ng-if="o.cliente.data.pessoa.data.fisica"  style="text-align: center;border-top:1px solid #888">
+                {{o.cliente.data.pessoa.data.nome}}
+                <br /><br /><br />
+        </div >
+        <div ng-if="o.cliente.data.pessoa.data.juridica"  style="text-align: center;border-top:1px solid #888">
+                {{o.cliente.data.pessoa.data.juridica.data.razao_social}}
+                <br /><br /><br />
+        </div >
+        <div ng-if="o.cliente.data.pessoa.data.fisica.data.casamento"   style="text-align: center;border-top:1px solid #888">
+                {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.nome}}    
+                <br /><br /><br />
+        </div >    
+        
+    -->
+<br>
+<div >
+    <div style="text-align: center; width: 50%; border-top:1px solid #888">
+    <strong> CAPELINHA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA. </strong> <br> PROMITENTE VENDEDORA <br>
+    <br> <br>
+    </div >
+    <div ng-if="o.cliente.data.pessoa.data.juridica"  style="text-align: center; width: 50% ; border-top:1px solid #888">
+        PROMISSÁRIO(S) COMPRADOR(ES)
+    <br> <br>
+    <div ng-if="o.cliente.data.pessoa.data.juridica"  style="text-align: center; border-top:1px solid #888">
+        PROMISSÁRIO(S) COMPRADOR(ES)
+    <br> <br> <br>
+    </div >     
+</div>
+
+    
+    <!-- 
+  </div>
+    <br>
+    <div ng-repeat="o in proposta.proponentes.data">
+        <strong>
+        <div ng-if="o.cliente.data.pessoa.data.fisica"  style="text-align: center;border-top:1px solid #888">
+                {{o.cliente.data.pessoa.data.nome}}
+                <br /><br /><br />
+        </div >
+        <div ng-if="o.cliente.data.pessoa.data.juridica"  style="text-align: center;border-top:1px solid #888">
+                {{o.cliente.data.pessoa.data.juridica.data.razao_social}}
+                <br /><br /><br />
+        </div >
+        <div ng-if="o.cliente.data.pessoa.data.fisica.data.casamento"   style="text-align: center;border-top:1px solid #888">
+                {{o.cliente.data.pessoa.data.fisica.data.casamento.data.conjuge.data.nome}}    
+                <br /><br /><br />
+        </div >     
+        </strong>
+    </div>
+        -->
+
+        <div style="float: left;width: 50%;padding-right: 5px;">
+            <div style="text-align: left;">
+                <strong>TESTEMUNHAS:</strong>
+            </div>
+            <br />
+            <br />
+            <div style="text-align: left;border-top:1px solid #888">
+                Nome:
+            </div>
+            <div style="text-align: left">
+                CPF:
+            </div>
+            <div style="text-align: left">
+                CI:
+            </div>
+        </div>
+        <div style="float: left; width: 50%;padding-left: 5px;">
+            <div style="text-align: left;">
+                &nbsp;
+            </div>
+            <br />
+            <br />
+            <div style="text-align: left;border-top:1px solid #888">
+                Nome:
+            </div>
+            <div style="text-align: left">
+                CPF:
+            </div>
+            <div style="text-align: left">
+                CI:
+            </div>
+        </div>
+    </div>
