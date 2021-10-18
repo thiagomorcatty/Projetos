@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Thigo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Thigo\\.nuget\\packages"
+    ]
+  }
+}
