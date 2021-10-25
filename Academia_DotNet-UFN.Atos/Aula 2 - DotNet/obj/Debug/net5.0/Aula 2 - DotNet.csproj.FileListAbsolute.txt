@@ -1,0 +1,16 @@
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\Aula 2 - DotNet.csproj.AssemblyReference.cache
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\Aula 2 - DotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\Aula 2 - DotNet.AssemblyInfoInputs.cache
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\Aula 2 - DotNet.AssemblyInfo.cs
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\Aula 2 - DotNet.csproj.CoreCompileInputs.cache
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\bin\Debug\net5.0\Aula 2 - DotNet.exe
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\bin\Debug\net5.0\Aula 2 - DotNet.deps.json
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\bin\Debug\net5.0\Aula 2 - DotNet.runtimeconfig.json
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\bin\Debug\net5.0\Aula 2 - DotNet.runtimeconfig.dev.json
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\bin\Debug\net5.0\Aula 2 - DotNet.dll
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\bin\Debug\net5.0\ref\Aula 2 - DotNet.dll
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\bin\Debug\net5.0\Aula 2 - DotNet.pdb
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\Aula 2 - DotNet.dll
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\ref\Aula 2 - DotNet.dll
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\Aula 2 - DotNet.pdb
+C:\Users\Thigo\Documents\Projetos\Academia_DotNet-UFN.Atos\Aula 2 - DotNet\obj\Debug\net5.0\Aula 2 - DotNet.genruntimeconfig.cache
