@@ -76,7 +76,7 @@ namespace DIO.Series
             string entradaDescricao =Console.ReadLine();
 
             Serie novaSerie = new Serie (id: repositorio.ProximoId(),
-                                         genero: (Genero) entradaGenero,
+                                         genero: (Genero)entradaGenero,
                                          titulo: entradaTitulo,
                                          descricao: entradaDescricao,
                                          ano: entradaAno);
